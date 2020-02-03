@@ -1,0 +1,44 @@
+table.delivery-fee-table {
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.woocommerce .delivery-fee-table th {
+    padding: 10px;
+}
+.woocommerce .delivery-fee-table thead {
+    background-color: #eee;
+    border: 0;
+}
+table.delivery-fee-table, table.delivery-fee-table tr {
+    border-spacing: 0;
+}
+.woocommerce .delivery-fee-table td {
+    padding: 10px;
+    border-bottom: 1px solid #efefef;
+    border-left: 1px solid #efefef;
+}
+.delivery-fee-action a i {
+    text-decoration: none;
+    border: 1px solid #0073aa;
+    display: inline-block;
+    border-radius: 100%;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    margin-right: 3px;
+}
+.delivery-fee-action a:focus .gravatar, 
+.delivery-fee-action a:focus, 
+.delivery-fee-action a:focus .media-icon img {
+    box-shadow: none;
+    outline: none;
+}
+.woocommerce .delivery-fee-table input.to-range, .woocommerce .delivery-fee-table input.from-range {
+    width: 60px!important;
+    display: inline-block;
+    min-width: auto;
+    text-align: center;
+}
+.woocommerce .delivery-fee-table span {
+    line-height: 30px;
+}
